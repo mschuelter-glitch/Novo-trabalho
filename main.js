@@ -5,9 +5,11 @@ const perguntas = [
             {
                 texto: "Compartilho para saber o que acham.",
                 afirmacao: "Percebeu que vídeos falsos podem enganar muitas pessoas."
+            }
             {
                 texto: "Procuro saber se o vídeo é verdadeiro.",
                 afirmacao: "Aprendeu a verificar informações antes de compartilhá-las."
+            }
         ]
     },
     {
@@ -33,6 +35,7 @@ const perguntas = [
             {
                 texto: "Criamos um guia para alunos novos.",
                 afirmacao: "Percebeu que tecnologia também pode ajudar outras pessoas."
+            }
         ]
     },
     {
@@ -58,6 +61,7 @@ const perguntas = [
             {
                 texto: "Entender como o projeto funciona.",
                 afirmacao: "Entendeu que a tecnologia não substitui o conhecimento humano."
+            }
         ]
     },
 ];
