@@ -1,0 +1,14 @@
+:root{
+--cor-fundo:#01080e;
+--cor-principal:#1cd8e6;
+--cor-secundaria:#c03fda;
+--cor-destaque:#e42b43;
+--cor-texto:#e0cc17;
+}
+bory{
+    background-color: var(--cor-fundo);
+    color: var(--cor-texto);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
