@@ -1,3 +1,13 @@
+const caixaPrincipal = document.querySelector(".caixa-principal")
+const caixaPergunta = document.querySelector(".caixa-pergunta")
+const caixaAlternativas = document.querySelector(".caixa-resultado")
+const caixaResultado = document.querySelector(".caixa-resultado")
+const textoResultado = document.querySelector(".texto-resultado")
+
+
+
+
+
 const perguntas = [
     {
         enunciado: "Um colega mostra um vídeo falso criado por IA. Parece real. O que você faz?"
@@ -65,3 +75,10 @@ const perguntas = [
         ]
     },
 ];
+let atual = 0
+let perguntaAtual;
+let historiaFinal = ""
+
+function mostraPergunta(){
+
+}
