@@ -10,7 +10,7 @@ const textoResultado = document.querySelector(".texto-resultado")
 
 const perguntas = [
     {
-        enunciado: "Um colega mostra um vídeo falso criado por IA. Parece real. O que você faz?"
+        enunciado: "Um colega mostra um vídeo falso criado por IA. Parece real. O que você faz?",
         alternativas: [
             {
                 texto: "Compartilho para saber o que acham.",
