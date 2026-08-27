@@ -80,5 +80,28 @@ let perguntaAtual;
 let historiaFinal = ""
 
 function mostraPergunta(){
-
+     if (atual >= perguntas.length){
+        mostrarResultado()
+    return
+    }
+    perguntaAtual = perguntas[atual]
+    caixaPergunta.textContent =perguntaAtual
+}
+function mostrarAlternativa(){
+    for (const alternativa of perguntaAtual.alternativa)
+        const botaoAlternativa = document.createElement("button")
+        botaoAlternativas.textContent = alternativa.texto
+        botaoAlternativa. addEventListener ("click", ()=> respostaSelecionada(alternativa))
+        caixaAlternativa.appendChild(botaoAlternativas)
+}
+function respostaSelecionada(opcaoSelecionada){
+    const afirmacoes = opcaoSelecionada.afirmacao[
+        historiaFinal += afirmacoes + ""
+        atual++
+        MostraPergunta 
+    ]
+}
+function mostrarResultado(){
+    caixaPergunta.textContent="em 2049 ..."
+    textoResultado.textContent
 }
