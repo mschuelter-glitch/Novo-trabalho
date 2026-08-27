@@ -94,7 +94,7 @@ function mostrarAlternativa(){
         const botaoAlternativa = document.createElement("button")
         botaoAlternativa.textContent = alternativa.texto
         botaoAlternativa. addEventListener ("click", ()=> respostaSelecionada(alternativa))
-        caixaAlternativa.appendChild(botaoAlternativas)
+        caixaAlternativas.appendChild(botaoAlternativas)
 }
 }
 function respostaSelecionada(opcaoSelecionada){
