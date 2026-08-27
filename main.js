@@ -98,11 +98,11 @@ function mostrarAlternativa(){
 }
 }
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmacao[
+    const afirmacoes = opcaoSelecionada.afirmacao
         historiaFinal += afirmacoes + " "
         atual++
         MostraPergunta()
-    ]
+    
 }
 function mostrarResultado(){
     caixaPergunta.textContent="em 2049 ..."
