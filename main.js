@@ -99,9 +99,9 @@ function mostrarAlternativa(){
 }
 function respostaSelecionada(opcaoSelecionada){
     const afirmacoes = opcaoSelecionada.afirmacao[
-        historiaFinal += afirmacoes + ""
+        historiaFinal += afirmacoes + " "
         atual++
-        MostraPergunta 
+        MostraPergunta()
     ]
 }
 function mostrarResultado(){
