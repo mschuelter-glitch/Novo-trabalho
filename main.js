@@ -109,3 +109,5 @@ function mostrarResultado(){
     textoResultado.textContent = historiaFinal
     caixaAlternativa.textContent = "";
 }
+
+mostraPergunta()
