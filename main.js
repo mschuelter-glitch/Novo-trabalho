@@ -15,7 +15,7 @@ const perguntas = [
             {
                 texto: "Compartilho para saber o que acham.",
                 afirmacao: "Percebeu que vídeos falsos podem enganar muitas pessoas."
-            }
+            },
             {
                 texto: "Procuro saber se o vídeo é verdadeiro.",
                 afirmacao: "Aprendeu a verificar informações antes de compartilhá-las."
