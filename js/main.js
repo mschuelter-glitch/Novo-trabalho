@@ -1,3 +1,7 @@
+import {aleatorio} from "./js/aleatorio.js"
+import {perguntas} from "./js/pergunta.js"
+
+
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
@@ -14,7 +18,30 @@ function mostraPergunta() {
     if(atual >= perguntas.length){
         mostraResultado();
         return;
-    }
+    }-
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ,
+    ,.
+    ...............................................................................
+    .
+    
     perguntaAtual = perguntas[atual];
     caixaPerguntas.textContent = perguntaAtual.enunciado;
     caixaAlternativas.textContent = "";
