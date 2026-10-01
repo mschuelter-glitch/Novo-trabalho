@@ -7,11 +7,25 @@ const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
+const botaoiniciar = document.querySelector(".iniciar-ptn")
+const telainicial = document.querySelector(".tela-inicialq21    '")
 
 
 let atual = 0; 
 let perguntaAtual;
 let historiaFinal = "";
+
+botaoiniciar.addEventListener("click", iniciarJogo)
+
+function iniciarJogo(){
+    atual = 0;
+    historiaFinal = ""
+    telainicial.style.display = "none"
+    caixaPerguntas.classlist.remove("mostrar")
+    caixaAlternativas.classlist.remove("mostrar")
+    caixaResultado.classlist.remove("mostrar")
+
+}
 
 function mostraPergunta() {
     if(atual >= perguntas.length){
