@@ -8,7 +8,7 @@ const caixaAlternativas = document.querySelector(".caixa-alternativas");
 const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const botaoiniciar = document.querySelector(".iniciar-ptn")
-const telainicial = document.querySelector(".tela-inicialq21    '")
+const telainicial = document.querySelector(".tela-inicial")
 
 
 let atual = 0; 
