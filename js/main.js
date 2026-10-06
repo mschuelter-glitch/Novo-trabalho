@@ -21,9 +21,9 @@ function iniciarJogo(){
     atual = 0;
     historiaFinal = ""
     telainicial.style.display = "none"
-    caixaPerguntas.classlist.remove("mostrar")
-    caixaAlternativas.classlist.remove("mostrar")
-    caixaResultado.classlist.remove("mostrar")
+    caixaPerguntas.classList.remove("mostrar")
+    caixaAlternativas.classList.remove("mostrar")
+    caixaResultado.classList.remove("mostrar")
     mostraPergunta();
 }
 
